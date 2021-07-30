@@ -1,0 +1,26 @@
+So first of all, i have made this efi specially only for surface pro 4,5,6. 
+I did tested this efi only in my surface pro 6 but am sure this will also work for other surface as well.
+So what u need now to get hackintosh in ur surface pro is get the macos dmg file from this link https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/
+i suggest u to try first macos catalina, btw i tested macos catalina 10.15.6,10.15.7 and macos big sur 11.2. and efi is working without any errors.
+After downloading the dmg file of mac that u want, now download this software in ur windows https://www.diskgenius.com/download.php
+After software installed, u also need to download the efi from the link given above.
+now install balena etcher from this link https://www.balena.io/etcher/
+okay now plug in ur usb, at least 16gb of usb is needed, plug the usb and format it.
+now open the balena etcher and select the macos dmg file u just downloaded and then select ur usb. [make sure ur usb is formatted]
+and click start flash.
+after flash is completed, open the disk genius
+and in disk genius, select ur usb partition and delete the default efi of ur usb which made automatically. and place my EFI which is given from the link.
+now after placing my efi folder in ur usb boot partition its time to boot.
+boot in ur surface uefi and then and disable the secureboot and deselect all options except USB Storage.
+now click restart and ur usb will boot and after booted in macos installation then ur done, just install the mac and enjoy.
+what will work?
+TrackPad
+Keyboard
+Lid
+Keyboard Backlight
+Screen brightness
+Audio also works
+sleep also works
+what's fixable? 
+Wifi [Wifi Adapter]
+Bluetooth [Bluetooth Adapter]
